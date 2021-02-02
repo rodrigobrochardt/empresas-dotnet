@@ -2,7 +2,7 @@
 
 ## 🏗 O que fazer?
 
-- Você deve realizar um *fork* deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, **NÃO** é necessário criar um *Pull Request* para isso, nós iremos avaliar e retornar por e-mail o resultado do teste.
+- Você deve realizar um *fork* deste repositório e, ao finalizar, enviar o ***link do fork em nosso repositório*** para a nossa equipe. Lembre-se, **NÃO** é necessário criar um *Pull Request* para isso, nós iremos avaliar e retornar por e-mail o resultado do teste.
 
 # 🚨 Requisitos
 
