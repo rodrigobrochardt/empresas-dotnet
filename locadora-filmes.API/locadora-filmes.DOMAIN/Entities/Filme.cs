@@ -14,7 +14,7 @@ namespace locadora_filmes.DOMAIN.Entities {
         public List<String> Genero { get; set; }
         public List<String> Atores { get; set; }
         public DateTime Lancamento { get; set; }
-        public Int16 Pontuacao { get; set; }
+        public Decimal Pontuacao { get; set; }
         public Int32 QtdVotos { get; set; }
         public String Sinopse { get; set; }
 

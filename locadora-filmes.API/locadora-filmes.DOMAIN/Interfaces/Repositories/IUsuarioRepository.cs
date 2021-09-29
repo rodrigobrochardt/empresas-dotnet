@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace locadora_filmes.DOMAIN.Interfaces.Repositories {
     public interface IUsuarioRepository : IBaseRepository<Usuario> {
 
-        Task<IEnumerable<Administrador>> Get(int pagina, int quantidade);
-        Task<IEnumerable<Administrador>> GetDesligados(int pagina = 0, int quantidade = 0);
-        Task<IEnumerable<Administrador>> GetOrdemAlfabetica(int pagina = 0, int quantidade = 0);
+        Task<IEnumerable<Usuario>> Get(int pagina, int quantidade);
+        Task<IEnumerable<Usuario>> GetDesligados(int pagina = 0, int quantidade = 0);
+        Task<IEnumerable<Usuario>> GetOrdemAlfabetica(int pagina = 0, int quantidade = 0);
     }
 }
