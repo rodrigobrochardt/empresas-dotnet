@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "locadora-filmes.API", "locadora-filmes.API\locadora-filmes.API.csproj", "{E2813B3C-043D-44E2-B5BA-C70F0CED0D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "locadora-filmes.INFRA", "locadora-filmes.INFRA\locadora-filmes.INFRA.csproj", "{174DFA74-AAC9-4A68-A99A-ED06BCAF9641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "locadora-filmes.DOMAIN", "locadora-filmes.DOMAIN\locadora-filmes.DOMAIN.csproj", "{C4DDBDA5-ADE3-45FF-9DD1-0093AA33F8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2813B3C-043D-44E2-B5BA-C70F0CED0D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2813B3C-043D-44E2-B5BA-C70F0CED0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2813B3C-043D-44E2-B5BA-C70F0CED0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2813B3C-043D-44E2-B5BA-C70F0CED0D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174DFA74-AAC9-4A68-A99A-ED06BCAF9641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174DFA74-AAC9-4A68-A99A-ED06BCAF9641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174DFA74-AAC9-4A68-A99A-ED06BCAF9641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174DFA74-AAC9-4A68-A99A-ED06BCAF9641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DDBDA5-ADE3-45FF-9DD1-0093AA33F8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DDBDA5-ADE3-45FF-9DD1-0093AA33F8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DDBDA5-ADE3-45FF-9DD1-0093AA33F8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DDBDA5-ADE3-45FF-9DD1-0093AA33F8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4C70FE-11A6-414A-88A9-653476389D43}
+	EndGlobalSection
+EndGlobal

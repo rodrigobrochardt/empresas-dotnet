@@ -1,0 +1,12 @@
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\bin\Debug\net5.0\locadora-filmes.DOMAIN.deps.json
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\bin\Debug\net5.0\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\bin\Debug\net5.0\ref\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\bin\Debug\net5.0\locadora-filmes.DOMAIN.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.AssemblyInfo.cs
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\ref\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes\obj\Debug\net5.0\locadora-filmes.DOMAIN.pdb

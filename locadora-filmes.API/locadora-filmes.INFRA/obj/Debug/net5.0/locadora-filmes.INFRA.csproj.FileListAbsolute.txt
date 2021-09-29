@@ -1,0 +1,12 @@
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.INFRA.deps.json
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.INFRA.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\ref\locadora-filmes.INFRA.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.INFRA.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.AssemblyInfo.cs
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\ref\locadora-filmes.INFRA.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.pdb
