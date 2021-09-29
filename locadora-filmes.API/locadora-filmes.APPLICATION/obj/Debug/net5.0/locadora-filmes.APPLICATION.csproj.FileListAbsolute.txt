@@ -1,0 +1,15 @@
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.AssemblyInfo.cs
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\locadora-filmes.APPLICATION.deps.json
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\locadora-filmes.APPLICATION.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\ref\locadora-filmes.APPLICATION.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\locadora-filmes.APPLICATION.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\bin\Debug\net5.0\locadora-filmes.DOMAIN.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.csproj.CopyComplete
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\ref\locadora-filmes.APPLICATION.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.APPLICATION\obj\Debug\net5.0\locadora-filmes.APPLICATION.pdb

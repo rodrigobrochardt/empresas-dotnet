@@ -16,7 +16,6 @@ C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.AP
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.AssemblyInfoInputs.cache
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.AssemblyInfo.cs
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.csproj.CoreCompileInputs.cache
-C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\staticwebassets\locadora-filmes.API.StaticWebAssets.Manifest.cache
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\staticwebassets\locadora-filmes.API.StaticWebAssets.xml
@@ -27,3 +26,13 @@ C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.AP
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\ref\locadora-filmes.API.dll
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.pdb
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\obj\Debug\net5.0\locadora-filmes.API.genruntimeconfig.cache
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\locadora-filmes.APPLICATION.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\locadora-filmes.DOMAIN.dll
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\locadora-filmes.APPLICATION.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.API\bin\Debug\net5.0\locadora-filmes.DOMAIN.pdb
