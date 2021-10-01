@@ -26,21 +26,6 @@ namespace locadora_filmes.APPLICATION.Services
             return tokenHandler.WriteToken(token);
         }
 
-        public static string GenerateToken(Administrador administrador) {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(Settings.Key);
-            var tokenDescriptor = new SecurityTokenDescriptor {
-                Subject = new ClaimsIdentity(new Claim[1] {
-                 new Claim(ClaimTypes.Email, administrador.Email.ToString())
-
-            }),
-                Expires = DateTime.UtcNow.AddHours(2),
-
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
-                SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
-        }
+       
     }
 }

@@ -19,5 +19,17 @@ namespace locadora_filmes.APPLICATION.Services {
             return new Response(400, value);
         }
 
+        protected Response Unauthorized(string value) {
+            return new Response(401, $"Usuário de identificação {value} não é administrador");
+        }
+
+        protected Response NoContent(object value) {
+            return new Response(204, value);
+        }
+
+        protected Response Conflict(string value) {
+            return new Response(409, value);
+        }
+
     }
 }

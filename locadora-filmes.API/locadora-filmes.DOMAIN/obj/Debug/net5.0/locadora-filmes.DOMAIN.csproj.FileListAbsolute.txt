@@ -9,3 +9,4 @@ C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.DO
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.DOMAIN\obj\Debug\net5.0\locadora-filmes.DOMAIN.dll
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.DOMAIN\obj\Debug\net5.0\ref\locadora-filmes.DOMAIN.dll
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.DOMAIN\obj\Debug\net5.0\locadora-filmes.DOMAIN.pdb
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.DOMAIN\obj\Debug\net5.0\locadora-filmes.DOMAIN.csproj.AssemblyReference.cache

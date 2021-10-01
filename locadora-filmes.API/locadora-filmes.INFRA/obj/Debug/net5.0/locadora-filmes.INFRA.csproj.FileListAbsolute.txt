@@ -13,3 +13,6 @@ C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.IN
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.DOMAIN.dll
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.DOMAIN.pdb
 C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.csproj.CopyComplete
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.INFRA.runtimeconfig.json
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\bin\Debug\net5.0\locadora-filmes.INFRA.runtimeconfig.dev.json
+C:\Users\Rodrigo\Projetos\empresas-dotnet\locadora-filmes.API\locadora-filmes.INFRA\obj\Debug\net5.0\locadora-filmes.INFRA.genruntimeconfig.cache

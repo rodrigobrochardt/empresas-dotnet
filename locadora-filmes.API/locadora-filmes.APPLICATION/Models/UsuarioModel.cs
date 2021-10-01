@@ -10,6 +10,7 @@ namespace locadora_filmes.DOMAIN.Entities {
         public String Auditoria { get; set; }
         public String Nome { get; set; }
         public String Email { get; set; }
+        public UsuarioCargoEnm Cargo { get; set; }
         public String Senha { get; set; }
         public String Status { get; set; }
 

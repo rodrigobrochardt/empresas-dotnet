@@ -1,70 +1,77 @@
 ﻿using locadora_filmes.DOMAIN.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace locadora_filmes.INFRA.Data.Mappings {
     class FilmeMapping {
         public FilmeMapping(EntityTypeBuilder<Filme> entity) {
 
-            entity.ToTable(name: "Filme")
+            entity.ToTable(name: "filme")
                 .HasKey(p => p.Id);
 
             entity.Property(p => p.Id)
-                .HasColumnName("Id")
+                .HasColumnName("id")
                 .HasColumnType("int")
                 .IsRequired();
 
             entity.Property(p => p.Auditoria)
-               .HasColumnName("Auditoria")
+               .HasColumnName("auditoria")
                .HasColumnType("varchar")
                .HasMaxLength(125)
                .IsRequired();
 
             entity.Property(p => p.Titulo)
-                .HasColumnName("Titulo")
+                .HasColumnName("titulo")
                 .HasColumnType("varchar")
-                .HasMaxLength(30)
+                .HasMaxLength(50)
+                .IsRequired();
+
+            entity.Property(p => p.Diretor)
+                .HasColumnName("diretor")
+                .HasColumnType("varchar")
+                .HasMaxLength(50)
                 .IsRequired();
 
             entity.Property(p => p.Genero)
-                .HasColumnName("Genero")
-                .HasColumnType("varchar")
-                .HasMaxLength(25)
+                .HasColumnName("genero")
+                .HasColumnType("nvarchar")
+                .HasMaxLength(256)
                 .IsRequired();
 
             entity.Property(p => p.Atores)
-                .HasColumnName("Atores")
-                .HasColumnType("varchar")
-                .HasMaxLength(25);
+                .HasColumnName("atores")
+                .HasColumnType("nvarchar")
+                .HasMaxLength(256);
 
             entity.Property(p => p.Status)
-                .HasColumnName("Status")
+                .HasColumnName("status")
                 .HasColumnType("varchar")
                 .HasMaxLength(2)
                 .IsRequired();
 
             entity.Property(p => p.Lancamento)
-                .HasColumnName("Lancamento")
-                .HasColumnType("date");
+                .HasColumnName("lancamento")
+                .HasColumnType("datetime");
 
             entity.Property(p => p.QtdVotos)
-                .HasColumnName("QtdVotos")
+                .HasColumnName("qtd_votos")
                 .HasColumnType("int");
 
             entity.Property(p => p.Pontuacao)
-                .HasColumnName("Pontuacao")
+                .HasColumnName("pontuacao")
                 .HasColumnType("decimal")
                 .HasPrecision(8, 1);
 
             entity.Property(p => p.Sinopse)
-                .HasColumnName("Sinopse")
-                .HasColumnType("varchar")
-                .HasMaxLength(125);
+                .HasColumnName("sinopse")
+                .HasColumnType("nvarchar")
+                .HasMaxLength(256);
+
+            entity.HasMany(p => p.Voto)
+               .WithOne(p => p.Filme)
+               .OnDelete(DeleteBehavior.Restrict)
+               .HasForeignKey(p => p.FilmeId)
+               .IsRequired();
         }
     }
 }

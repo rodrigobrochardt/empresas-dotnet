@@ -8,8 +8,9 @@ namespace locadora_filmes.APPLICATION.AutoMapper
         public ModelToEntity()
         {
             CreateMap<UsuarioModel, Usuario>();
-            CreateMap<AdministradorModel, Administrador>();
             CreateMap<FilmeModel, Filme>();
+            CreateMap<VotoModel, Voto>();
+
 
 
         }

@@ -1,22 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace locadora_filmes.DOMAIN.Entities {
     public class Filme : Base {
 
-        public String Auditoria { get; set; }
-        public String Diretor { get; set; }
-        public String Status { get; set; }
-        public String Titulo { get; set; }
-        public List<String> Genero { get; set; }
-        public List<String> Atores { get; set; }
-        public DateTime Lancamento { get; set; }
-        public Decimal Pontuacao { get; set; }
-        public Int32 QtdVotos { get; set; }
-        public String Sinopse { get; set; }
+        public String Auditoria { get; private set; }
+
+        [Required(ErrorMessage = "O nome do diretor é obrigatório!")]
+        [MaxLength(50, ErrorMessage = "Máximo de 50 caracteres")]
+        public String Diretor { get; private set; }
+
+        [Required(ErrorMessage = "O titulo do filme é obrigatório!")]
+        [MaxLength(50, ErrorMessage = "Máximo de 50 caracteres")]
+        [MinLength(3, ErrorMessage = "Minimo de 3 caracteres ")]
+        public String Titulo { get; private set; }
+
+        [Required(ErrorMessage = "É obrigatório escolher um gênero para o filme!")]
+        public String Genero { get; private set; }
+
+        public String Atores { get; private set; }
+
+        public DateTime Lancamento { get; private set; }
+
+        public Decimal Pontuacao { get; private set; }
+
+        public int QtdVotos { get; private set; }
+
+        [MaxLength(256, ErrorMessage = "Máximo de 256 caracteres")]
+        public String Sinopse { get; private set; }
+
+        public virtual ICollection<Voto> Voto { get; private set; }
 
 
         public Filme() : base() {
@@ -28,9 +42,9 @@ namespace locadora_filmes.DOMAIN.Entities {
             this.Diretor = obj.Diretor;
             this.Status = obj.Status;
             this.Titulo = obj.Titulo;
-            this.Genero = obj.Genero;
-            this.Atores = obj.Atores;
-            this.Lancamento = obj.Lancamento;
+            this.Genero = string.Join(",", obj.Genero);
+            this.Atores = string.Join(",", obj.Atores);
+            this.Lancamento = obj.Lancamento.Date;
             this.Pontuacao = obj.Pontuacao;
             this.QtdVotos = obj.QtdVotos;
             this.Sinopse = obj.Sinopse;
@@ -39,6 +53,10 @@ namespace locadora_filmes.DOMAIN.Entities {
 
         public void SetStatus(String status) {
             this.Status = status;
+        }
+
+        public void SetAuditoria(String auditoria) {
+            this.Auditoria = auditoria;
         }
     }
 }

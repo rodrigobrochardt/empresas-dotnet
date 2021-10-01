@@ -4,7 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace locadora_filmes.DOMAIN.Entities {
     public abstract class Base {
-        public Int16 Id { get; set; }
+
+        public String Status { get; protected set; }
+        public int Id { get; protected set; }
 
 
 

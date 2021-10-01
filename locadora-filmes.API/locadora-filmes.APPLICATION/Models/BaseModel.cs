@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace locadora_filmes.DOMAIN.Entities {
     public abstract class BaseModel {
-        public Int16 Id { get; set; }
+        public int Id { get; set; }
     }
 }
