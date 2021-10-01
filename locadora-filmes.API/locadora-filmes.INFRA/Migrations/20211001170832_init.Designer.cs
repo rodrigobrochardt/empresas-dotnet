@@ -10,7 +10,7 @@ using locadora_filmes.INFRA.Data.Context;
 namespace locadora_filmes.INFRA.Migrations
 {
     [DbContext(typeof(SqlServerContext))]
-    [Migration("20211001155551_init")]
+    [Migration("20211001170832_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,8 +57,8 @@ namespace locadora_filmes.INFRA.Migrations
                         .HasColumnName("lancamento");
 
                     b.Property<decimal>("Pontuacao")
-                        .HasPrecision(8, 1)
-                        .HasColumnType("decimal(8,1)")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)")
                         .HasColumnName("pontuacao");
 
                     b.Property<int>("QtdVotos")
@@ -156,8 +156,8 @@ namespace locadora_filmes.INFRA.Migrations
                         .HasColumnName("filme_id");
 
                     b.Property<decimal>("Nota")
-                        .HasPrecision(2, 1)
-                        .HasColumnType("decimal(2,1)")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)")
                         .HasColumnName("nota");
 
                     b.Property<string>("Status")

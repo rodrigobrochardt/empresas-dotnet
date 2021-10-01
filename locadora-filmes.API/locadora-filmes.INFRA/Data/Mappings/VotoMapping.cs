@@ -17,7 +17,7 @@ namespace locadora_filmes.INFRA.Data.Mappings {
             entity.Property(p => p.Nota)
                .HasColumnName("nota")
                .HasColumnType("decimal")
-               .HasPrecision(2, 1)
+               .HasPrecision(8, 2)
                .IsRequired();
 
             entity.Property(p => p.UsuarioId)

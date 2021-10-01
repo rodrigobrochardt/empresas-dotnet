@@ -23,7 +23,7 @@ namespace locadora_filmes.DOMAIN.Entities {
 
         public DateTime Lancamento { get; private set; }
 
-        public Decimal Pontuacao { get; private set; }
+        public decimal Pontuacao { get; private set; }
 
         public int QtdVotos { get; private set; }
 
@@ -58,5 +58,12 @@ namespace locadora_filmes.DOMAIN.Entities {
         public void SetAuditoria(String auditoria) {
             this.Auditoria = auditoria;
         }
+
+        public void AddVoto(decimal voto) {
+            this.QtdVotos += 1;
+            this.Pontuacao = ((this.Pontuacao * (QtdVotos - 1)) + voto) / QtdVotos;
+
+        }
+
     }
 }

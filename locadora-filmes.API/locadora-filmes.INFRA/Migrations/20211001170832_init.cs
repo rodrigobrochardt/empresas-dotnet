@@ -19,7 +19,7 @@ namespace locadora_filmes.INFRA.Migrations
                     genero = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     atores = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     lancamento = table.Column<DateTime>(type: "datetime", nullable: false),
-                    pontuacao = table.Column<decimal>(type: "decimal(8,1)", precision: 8, scale: 1, nullable: false),
+                    pontuacao = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
                     qtd_votos = table.Column<int>(type: "int", nullable: false),
                     sinopse = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     status = table.Column<string>(type: "varchar(2)", maxLength: 2, nullable: false)
@@ -56,7 +56,7 @@ namespace locadora_filmes.INFRA.Migrations
                     auditoria = table.Column<string>(type: "varchar(125)", maxLength: 125, nullable: false),
                     filme_id = table.Column<int>(type: "int", nullable: false),
                     user_id = table.Column<int>(type: "int", nullable: false),
-                    nota = table.Column<decimal>(type: "decimal(2,1)", precision: 2, scale: 1, nullable: false),
+                    nota = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
                     status = table.Column<string>(type: "varchar(2)", maxLength: 2, nullable: false)
                 },
                 constraints: table =>

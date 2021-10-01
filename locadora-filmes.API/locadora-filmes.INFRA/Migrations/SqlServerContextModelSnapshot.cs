@@ -55,8 +55,8 @@ namespace locadora_filmes.INFRA.Migrations
                         .HasColumnName("lancamento");
 
                     b.Property<decimal>("Pontuacao")
-                        .HasPrecision(8, 1)
-                        .HasColumnType("decimal(8,1)")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)")
                         .HasColumnName("pontuacao");
 
                     b.Property<int>("QtdVotos")
@@ -154,8 +154,8 @@ namespace locadora_filmes.INFRA.Migrations
                         .HasColumnName("filme_id");
 
                     b.Property<decimal>("Nota")
-                        .HasPrecision(2, 1)
-                        .HasColumnType("decimal(2,1)")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)")
                         .HasColumnName("nota");
 
                     b.Property<string>("Status")

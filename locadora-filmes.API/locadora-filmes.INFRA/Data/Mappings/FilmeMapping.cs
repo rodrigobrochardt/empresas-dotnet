@@ -60,7 +60,7 @@ namespace locadora_filmes.INFRA.Data.Mappings {
             entity.Property(p => p.Pontuacao)
                 .HasColumnName("pontuacao")
                 .HasColumnType("decimal")
-                .HasPrecision(8, 1);
+                .HasPrecision(8, 2);
 
             entity.Property(p => p.Sinopse)
                 .HasColumnName("sinopse")

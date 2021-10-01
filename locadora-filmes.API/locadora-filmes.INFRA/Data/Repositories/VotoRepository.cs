@@ -14,6 +14,12 @@ namespace locadora_filmes.INFRA.Data.Repositories {
             try {
                 Db.Set<Voto>().Add(obj);
                 await Db.SaveChangesAsync();
+
+                FilmeRepository filmeRepo = new FilmeRepository();
+                Filme filme= await filmeRepo.GetById(obj.FilmeId);
+                filme.AddVoto(obj.Nota);
+                filmeRepo.Update(filme);
+
                 return obj;
             } catch (Exception except) {
 
